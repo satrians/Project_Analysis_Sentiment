@@ -20,17 +20,12 @@ Proyek ini bertujuan untuk mengembangkan model analisis sentimen pada ulasan apl
 ---
 ## Struktur Proyek
 
-.
-├── whatsapp_scraper.py             # Script untuk mengambil data ulasan dari Google Play Store
-├── whatsapp_reviews.csv            # Dataset mentah hasil scraping (akan dihasilkan)
-├── label_data_from_score.py        # Script untuk melabeli data berdasarkan kolom 'score'
-├── whatsapp_reviews_labeled.csv    # Dataset ulasan yang sudah dilabeli (akan dihasilkan)
-├── sentiment_analysis.ipynb        # Notebook Jupyter untuk pra-pemrosesan, ekstraksi fitur,
-|                                   # pelatihan model (3 skema), evaluasi, dan inferensi
-├── requirements.txt                # Daftar dependensi Python yang dibutuhkan
-├── README.md                       # File ini
-├── best_rf_word2vec_model_optimized.pkl  # Contoh model terbaik yang disimpan (akan dihasilkan)
-└── best_word2vec_embeddings_optimized.model # Contoh model Word2Vec yang disimpan (akan dihasilkan)
+- whatsapp_scraper.py             # Script untuk mengambil data ulasan dari Google Play Store
+- whatsapp_reviews.csv            # Dataset mentah hasil scraping (akan dihasilkan)
+- sentiment_analysis.ipynb        # Notebook Jupyter untuk pra-pemrosesan, ekstraksi fitur,
+                                # pelatihan model (3 skema), evaluasi, dan inferensi
+- requirements.txt                # Daftar dependensi Python yang dibutuhkan
+- README.md                       # File ini
 ---
 
 ## Persyaratan Sistem
@@ -78,6 +73,4 @@ Bagian inferensi disertakan di akhir file.ipynb. Anda dapat menguji model yang s
 ## Kontribusi
 Jika Anda ingin berkontribusi pada proyek ini, silakan ajukan _pull request_ atau buka issue di repositori ini.
 
-## Lisensi
-Proyek ini dilisensikan di bawah [MIT License]. Lihat file LICENSE (jika ada) untuk detail lebih lanjut.
 
